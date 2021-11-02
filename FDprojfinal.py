@@ -1,6 +1,7 @@
 import tkinter as tk
 import math
 import matplotlib.pyplot as plt
+import utm
 
 #Desenho GUI
 root= tk.Tk()
@@ -473,3 +474,12 @@ for i in lp:
     f2.write('\n')
 f2.close()
 
+#output 4 - kml file
+
+#lp lista de pontos 
+
+lll=[]
+
+for i in lp:
+    x=utm.to_latlon(lp)
+    lll.append(x)
