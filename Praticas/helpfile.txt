@@ -1,0 +1,41 @@
+coordinates:
+entry1 (M), entry9 (P)
+entry2 (M), entry10 (P)
+entry3 (M), entry11(P)
+entry4 (M), entry12(P)
+
+escala
+entry5 l0
+
+camera
+value_inside1 l1
+
+outra camera
+s1 = entry13 defcamera0
+s2 = entry14 defcamera1
+px = entry15 defcamera2
+c = entry 16 defcamera3c
+
+l = entry6 l2
+q = entry7  l3
+mseg =entry20 l4
+cotamedia entry 21 l5
+
+precofoto = entry8 l6
+precohvoo = entry17 l7
+tempofaixa = entry18 l8
+velocidadeaviao = entry19 l9
+
+
+cotamedia
+
+['Intergraph DMC',
+ 'Intergraph DMC II 140', 
+'Intergraph DMC II 230', 
+'Intergraph DMC II 250', 
+'Microsoft UltraCamD',
+ 'Microsoft UltraCamX', 
+'Microsoft UltraCamXp', 
+'Microsoft UltraCamXp WA', 
+'Leica ADS', 
+'Outra']
