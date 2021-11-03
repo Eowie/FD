@@ -397,44 +397,106 @@ deltax12= ver1[0]-ver2[0]
 deltay12= ver1[1]-ver2[1]
 
 
-if side1<side2:
-    deltax1f =A1*math.cos(math.atan(deltax14/deltay14))
-    deltaxf  =A*math.cos(math.atan(deltax14/deltay14))
-    deltay1f =A1*math.sin(math.atan(deltax14/deltay14))
-    deltayf  =A*math.sin(math.atan(deltax14/deltay14))
-    deltaxp  =B*math.cos(math.atan(deltay12/deltax12))
-    deltayp  =B*math.sin(math.atan(deltay12/deltax12))
-else:
-    deltax1f =A1*math.cos(math.atan(deltax12/deltay12))
-    deltaxf  =A*math.cos(math.atan(deltax12/deltay12))
-    deltay1f =A1*math.sin(math.atan(deltax12/deltay12))
-    deltayf  =A*math.sin(math.atan(deltax12/deltay12))
-    deltaxp  =B*math.cos(math.atan(deltay14/deltax14))
-    deltayp  =B*math.sin(math.atan(deltay14/deltax14))
-
 
 lp=[]
-pa1x =ver1[0]+deltax1f
-pa1y =ver1[1]+deltay1f
-# pax  =pa1x+deltaxf
-# pay  =pa1y+deltayf
+llat=[]
+llon=[]
 
-p0x=pa1x-deltaxp
-p0y=pa1y-deltayp
+
+if deltay12 == 0 and deltax14==0:
+    if side1>=side2:
+        deltax1f =0
+        deltaxf =0
+        deltay1f=A1
+        deltayf =A
+        deltaxp= B
+        deltayp=0
+        pa1x =ver1[0]-deltax1f
+        pa1y =ver1[1]-deltay1f
+        p0x=pa1x-deltaxp
+        p0y=pa1y-deltayp
+        for i in range(int(nfx)):
+            llat.append(p0x)
+            llon.append(p0y)
+            lp.append((p0x,p0y,float(Zmed)))
+            plt.scatter(p0x, p0y, s=10)
+            for n in range (int(nf)):
+                p0x+=deltaxp
+                p0y-=deltayp
+                llat.append(p0x)
+                llon.append(p0y)
+                lp.append((p0x, p0y, float(Zmed)))
+                plt.scatter(p0x, p0y, s=10)
+            pa1x=pa1x-deltaxf
+            pa1y=pa1y-deltayf
+            p0x=pa1x-deltaxp
+            p0y=pa1y+deltayp
+    elif side2>side1:
+        deltax1f =A1
+        deltaxf =A
+        deltay1f=0
+        deltayf =0
+        deltaxp= 0
+        deltayp=B
+        pa1x =ver1[0]+deltax1f
+        pa1y =ver1[1]-deltay1f
+        p0x=pa1x-deltaxp
+        p0y=pa1y+deltayp
+        for i in range(int(nfx)):
+            llat.append(p0x)
+            llon.append(p0y)
+            lp.append((p0x,p0y,float(Zmed)))
+            plt.scatter(p0x, p0y, s=10)
+            for n in range (int(nf)):
+                p0x+=deltaxp
+                p0y-=deltayp
+                llat.append(p0x)
+                llon.append(p0y)
+                lp.append((p0x, p0y, float(Zmed)))
+                plt.scatter(p0x, p0y, s=10)
+            pa1x=pa1x+deltaxf
+            pa1y=pa1y+deltayf
+            p0x=pa1x+deltaxp
+            p0y=pa1y+deltayp
+
+# if side1<side2:
+#     deltax1f =A1*math.cos(math.atan(deltax14/deltay14))
+#     deltaxf  =A*math.cos(math.atan(deltax14/deltay14))
+#     deltay1f =A1*math.sin(math.atan(deltax14/deltay14))
+#     deltayf  =A*math.sin(math.atan(deltax14/deltay14))
+#     deltaxp  =B*math.cos(math.atan(deltay12/deltax12))
+#     deltayp  =B*math.sin(math.atan(deltay12/deltax12))
+# else:
+#     deltax1f =A1*math.cos(math.atan(deltax12/deltay12))
+#     deltaxf  =A*math.cos(math.atan(deltax12/deltay12))
+#     deltay1f =A1*math.sin(math.atan(deltax12/deltay12))
+#     deltayf  =A*math.sin(math.atan(deltax12/deltay12))
+#     deltaxp  =B*math.cos(math.atan(deltay14/deltax14))
+#     deltayp  =B*math.sin(math.atan(deltay14/deltax14))
+
+
+# lp=[]
+# pa1x =ver1[0]+deltax1f
+# pa1y =ver1[1]+deltay1f
+# # pax  =pa1x+deltaxf
+# # pay  =pa1y+deltayf
+
+# p0x=pa1x-deltaxp
+# p0y=pa1y-deltayp
 
     
-for i in range(nfx):
-    lp.append((p0x,p0y,float(Zmed)))
-    plt.scatter(p0x, p0y, s=10)
-    for n in range (nf-1):
-        p0x+=deltaxp
-        p0y+=deltayp
-        lp.append((p0x, p0y,float(Zmed)))
-        plt.scatter(p0x, p0y, s=10)
-    pa1x=pa1x+deltaxf
-    pa1y=pa1y+deltayf
-    p0x=pa1x-deltaxp
-    p0y=pa1y-deltayp
+# for i in range(nfx):
+#     lp.append((p0x,p0y,float(Zmed)))
+#     plt.scatter(p0x, p0y, s=10)
+#     for n in range (nf-1):
+#         p0x+=deltaxp
+#         p0y+=deltayp
+#         lp.append((p0x, p0y,float(Zmed)))
+#         plt.scatter(p0x, p0y, s=10)
+#     pa1x=pa1x+deltaxf
+#     pa1y=pa1y+deltayf
+#     p0x=pa1x-deltaxp
+#     p0y=pa1y-deltayp
 
 
 # ver1 = [float(coords[0]),float(coords[1])]
