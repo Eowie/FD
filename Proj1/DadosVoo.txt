@@ -1,8 +1,8 @@
 Dados do Utilizador
-Coordenadas Vertice 1: [484845.0, 4292018.0]
-Coordenadas Vertice 2: [487345.0, 4292018.0]
-Coordenadas Vertice 3: [487345.0, 4290516.0]
-Coordenadas Vertice 4: [484845.0, 4290516.0]
+Coordenadas Vertice 1: [500654.0, 4287711.0]
+Coordenadas Vertice 2: [502719.0, 4287425.0]
+Coordenadas Vertice 3: [502885.0, 4286139.0]
+Coordenadas Vertice 4: [500839.0, 4286381.0]
 Modulo da Escala da Fotografia: 8000
 Camara Escolhida: Intergraph DMC
 s1(px): 7680
@@ -12,26 +12,26 @@ px(micrometro): 12
 Sobreposicao Longitudinal(%): 60
 Sobreposicao Lateral(%): 20
 Margem de Seguranca(%): 20
-Cota Media(m): 81
+Cota Media(m): 80
 Preco Foto(€): 20
 Preco por Hora Voo(€): 200
-Tempo Mudanca de Faixa (s): 20
-Velocidade do Aviao(m/s): 20
+Tempo Mudanca de Faixa (s): 60
+Velocidade do Aviao(m/s): 200
 
 
 Dados do Calculo
-L(m): 2500
-Q(m): 1502
+L(m): 2085
+Q(m): 1297
 h(m): 960
 B(m): 295
 A(m): 1062
 A1(para a primeira fiada)(m): 398
-Cota Absoluta(m): 1041
-Numero de Fotos por Fiada: 10
+Cota Absoluta(m): 1040
+Numero de Fotos por Fiada: 9
 Numero de Fiadas: 2
-Numero de Fotos total(inclui fotos de seguranca): 24
-Tempo de Voo(s): 285
+Numero de Fotos total(inclui fotos de seguranca): 22
+Tempo de Voo(s): 84
 Tempo de Voo(h): 0
-Custo do Voo(€): 57084
-Custo Fotos(€): 480
-Orcamento total(€): 57564
+Custo do Voo(€): 16719
+Custo Fotos(€): 440
+Orcamento total(€): 17159

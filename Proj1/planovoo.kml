@@ -221,43 +221,23 @@
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="122">
-            <IconStyle id="123">
-                <colorMode>normal</colorMode>
-                <scale>1</scale>
-                <heading>0</heading>
-                <Icon id="124">
-                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
-                </Icon>
-            </IconStyle>
-        </Style>
-        <Style id="127">
-            <IconStyle id="128">
-                <colorMode>normal</colorMode>
-                <scale>1</scale>
-                <heading>0</heading>
-                <Icon id="129">
-                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
-                </Icon>
-            </IconStyle>
-        </Style>
-        <Style id="134">
-            <PolyStyle id="135">
+        <Style id="124">
+            <PolyStyle id="125">
                 <color>33FFFF00</color>
                 <colorMode>normal</colorMode>
                 <fill>1</fill>
                 <outline>1</outline>
             </PolyStyle>
         </Style>
-        <Style id="138">
-            <LineStyle id="139">
+        <Style id="128">
+            <LineStyle id="129">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
                 <width>3</width>
             </LineStyle>
         </Style>
-        <Style id="142">
-            <LineStyle id="143">
+        <Style id="132">
+            <LineStyle id="133">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
                 <width>3</width>
@@ -266,32 +246,32 @@
         <Placemark id="3">
             <name>Vertice0</name>
             <Point id="2">
-                <coordinates>-9.174469686258591,38.7767570574638,0.0</coordinates>
+                <coordinates>-8.992474982725533,38.738073511298296,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="5">
             <name>Vertice1</name>
             <Point id="4">
-                <coordinates>-9.145688902685858,38.77679647893671,0.0</coordinates>
+                <coordinates>-8.968715924581353,38.73549220306885,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="7">
             <name>Vertice2</name>
             <Point id="6">
-                <coordinates>-9.145661375235184,38.763260929649114,0.0</coordinates>
+                <coordinates>-8.966811336268737,38.72390253502824,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="9">
             <name>Vertice3</name>
             <Point id="8">
-                <coordinates>-9.17443672083287,38.76322152712469,0.0</coordinates>
+                <coordinates>-8.990347959348748,38.72608769855852,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="11">
             <name>0</name>
             <styleUrl>#12</styleUrl>
             <Point id="10">
-                <coordinates>-9.177855891487983,38.773164115957734,1041.0</coordinates>
+                <coordinates>-8.995205287196807,38.73488460882648,1040.0</coordinates>
                 <extrude>1</extrude>
                 <altitudeMode>absolute</altitudeMode>
             </Point>
@@ -300,7 +280,7 @@
             <name>1</name>
             <styleUrl>#17</styleUrl>
             <Point id="15">
-                <coordinates>-9.17446094604158,38.77316923300705,1041.0</coordinates>
+                <coordinates>-8.991844262748792,38.73451981772088,1040.0</coordinates>
                 <extrude>1</extrude>
                 <altitudeMode>absolute</altitudeMode>
             </Point>
@@ -309,7 +289,7 @@
             <name>2</name>
             <styleUrl>#22</styleUrl>
             <Point id="20">
-                <coordinates>-9.17106599974093,38.773174251440835,1041.0</coordinates>
+                <coordinates>-8.988483272511738,38.73415492997039,1040.0</coordinates>
                 <extrude>1</extrude>
                 <altitudeMode>absolute</altitudeMode>
             </Point>
@@ -318,7 +298,7 @@
             <name>3</name>
             <styleUrl>#27</styleUrl>
             <Point id="25">
-                <coordinates>-9.167671052602625,38.77317917125902,1041.0</coordinates>
+                <coordinates>-8.985122316500838,38.73378994557873,1040.0</coordinates>
                 <extrude>1</extrude>
                 <altitudeMode>absolute</altitudeMode>
             </Point>
@@ -327,7 +307,7 @@
             <name>4</name>
             <styleUrl>#32</styleUrl>
             <Point id="30">
-                <coordinates>-9.16427610464333,38.77318399246152,1041.0</coordinates>
+                <coordinates>-8.981761394731306,38.733424864549704,1040.0</coordinates>
                 <extrude>1</extrude>
                 <altitudeMode>absolute</altitudeMode>
             </Point>
@@ -336,7 +316,7 @@
             <name>5</name>
             <styleUrl>#37</styleUrl>
             <Point id="35">
-                <coordinates>-9.16088115587961,38.77318871504827,1041.0</coordinates>
+                <coordinates>-8.978400507218307,38.73305968688707,1040.0</coordinates>
                 <extrude>1</extrude>
                 <altitudeMode>absolute</altitudeMode>
             </Point>
@@ -345,7 +325,7 @@
             <name>6</name>
             <styleUrl>#42</styleUrl>
             <Point id="40">
-                <coordinates>-9.157486206328153,38.7731933390192,1041.0</coordinates>
+                <coordinates>-8.975039653977031,38.73269441259457,1040.0</coordinates>
                 <extrude>1</extrude>
                 <altitudeMode>absolute</altitudeMode>
             </Point>
@@ -354,7 +334,7 @@
             <name>7</name>
             <styleUrl>#47</styleUrl>
             <Point id="45">
-                <coordinates>-9.154091256005552,38.77319786437425,1041.0</coordinates>
+                <coordinates>-8.971678835022669,38.732329041675975,1040.0</coordinates>
                 <extrude>1</extrude>
                 <altitudeMode>absolute</altitudeMode>
             </Point>
@@ -363,7 +343,7 @@
             <name>8</name>
             <styleUrl>#52</styleUrl>
             <Point id="50">
-                <coordinates>-9.150696304928424,38.773202291113336,1041.0</coordinates>
+                <coordinates>-8.968318050370412,38.731963574135065,1040.0</coordinates>
                 <extrude>1</extrude>
                 <altitudeMode>absolute</altitudeMode>
             </Point>
@@ -372,7 +352,7 @@
             <name>9</name>
             <styleUrl>#57</styleUrl>
             <Point id="55">
-                <coordinates>-9.147301353113379,38.773206619236404,1041.0</coordinates>
+                <coordinates>-8.964957300035474,38.73159800997558,1040.0</coordinates>
                 <extrude>1</extrude>
                 <altitudeMode>absolute</altitudeMode>
             </Point>
@@ -381,7 +361,7 @@
             <name>10</name>
             <styleUrl>#62</styleUrl>
             <Point id="60">
-                <coordinates>-9.143906400577087,38.77321084874339,1041.0</coordinates>
+                <coordinates>-8.96159658403297,38.73123234920132,1040.0</coordinates>
                 <extrude>1</extrude>
                 <altitudeMode>absolute</altitudeMode>
             </Point>
@@ -390,7 +370,7 @@
             <name>11</name>
             <styleUrl>#67</styleUrl>
             <Point id="65">
-                <coordinates>-9.140511447336138,38.77321497963423,1041.0</coordinates>
+                <coordinates>-8.993523285904423,38.72467890322781,1040.0</coordinates>
                 <extrude>1</extrude>
                 <altitudeMode>absolute</altitudeMode>
             </Point>
@@ -399,7 +379,7 @@
             <name>12</name>
             <styleUrl>#72</styleUrl>
             <Point id="70">
-                <coordinates>-9.177832138456738,38.76359657500554,1041.0</coordinates>
+                <coordinates>-8.990162748152189,38.72431406318725,1040.0</coordinates>
                 <extrude>1</extrude>
                 <altitudeMode>absolute</altitudeMode>
             </Point>
@@ -408,7 +388,7 @@
             <name>13</name>
             <styleUrl>#77</styleUrl>
             <Point id="75">
-                <coordinates>-9.174437646406853,38.763601690316165,1041.0</coordinates>
+                <coordinates>-8.986802244601476,38.72394912653807,1040.0</coordinates>
                 <extrude>1</extrude>
                 <altitudeMode>absolute</altitudeMode>
             </Point>
@@ -417,7 +397,7 @@
             <name>14</name>
             <styleUrl>#82</styleUrl>
             <Point id="80">
-                <coordinates>-9.171043153503128,38.76360670704477,1041.0</coordinates>
+                <coordinates>-8.9834417752675,38.723584093284046,1040.0</coordinates>
                 <extrude>1</extrude>
                 <altitudeMode>absolute</altitudeMode>
             </Point>
@@ -426,7 +406,7 @@
             <name>15</name>
             <styleUrl>#87</styleUrl>
             <Point id="85">
-                <coordinates>-9.167648659762206,38.76361162519127,1041.0</coordinates>
+                <coordinates>-8.980081340165453,38.72321896342893,1040.0</coordinates>
                 <extrude>1</extrude>
                 <altitudeMode>absolute</altitudeMode>
             </Point>
@@ -435,7 +415,7 @@
             <name>16</name>
             <styleUrl>#92</styleUrl>
             <Point id="90">
-                <coordinates>-9.164254165200699,38.763616444755606,1041.0</coordinates>
+                <coordinates>-8.9767209393105,38.722853736976454,1040.0</coordinates>
                 <extrude>1</extrude>
                 <altitudeMode>absolute</altitudeMode>
             </Point>
@@ -444,7 +424,7 @@
             <name>17</name>
             <styleUrl>#97</styleUrl>
             <Point id="95">
-                <coordinates>-9.160859669835226,38.763621165737696,1041.0</coordinates>
+                <coordinates>-8.97336057271783,38.722488413930435,1040.0</coordinates>
                 <extrude>1</extrude>
                 <altitudeMode>absolute</altitudeMode>
             </Point>
@@ -453,7 +433,7 @@
             <name>18</name>
             <styleUrl>#102</styleUrl>
             <Point id="100">
-                <coordinates>-9.157465173682374,38.763625788137475,1041.0</coordinates>
+                <coordinates>-8.970000240402609,38.722122994294594,1040.0</coordinates>
                 <extrude>1</extrude>
                 <altitudeMode>absolute</altitudeMode>
             </Point>
@@ -462,7 +442,7 @@
             <name>19</name>
             <styleUrl>#107</styleUrl>
             <Point id="105">
-                <coordinates>-9.154070676758783,38.76363031195488,1041.0</coordinates>
+                <coordinates>-8.966639942380027,38.72175747807273,1040.0</coordinates>
                 <extrude>1</extrude>
                 <altitudeMode>absolute</altitudeMode>
             </Point>
@@ -471,7 +451,7 @@
             <name>20</name>
             <styleUrl>#112</styleUrl>
             <Point id="110">
-                <coordinates>-9.150676179081072,38.76363473718983,1041.0</coordinates>
+                <coordinates>-8.963279678665248,38.72139186526857,1040.0</coordinates>
                 <extrude>1</extrude>
                 <altitudeMode>absolute</altitudeMode>
             </Point>
@@ -480,52 +460,34 @@
             <name>21</name>
             <styleUrl>#117</styleUrl>
             <Point id="115">
-                <coordinates>-9.147281680665829,38.76363906384228,1041.0</coordinates>
+                <coordinates>-8.959919449273462,38.721026155885916,1040.0</coordinates>
                 <extrude>1</extrude>
                 <altitudeMode>absolute</altitudeMode>
             </Point>
         </Placemark>
         <Placemark id="121">
-            <name>22</name>
-            <styleUrl>#122</styleUrl>
-            <Point id="120">
-                <coordinates>-9.143887181529692,38.763643291912146,1041.0</coordinates>
-                <extrude>1</extrude>
-                <altitudeMode>absolute</altitudeMode>
-            </Point>
-        </Placemark>
-        <Placemark id="126">
-            <name>23</name>
-            <styleUrl>#127</styleUrl>
-            <Point id="125">
-                <coordinates>-9.14049268168928,38.76364742139938,1041.0</coordinates>
-                <extrude>1</extrude>
-                <altitudeMode>absolute</altitudeMode>
-            </Point>
-        </Placemark>
-        <Placemark id="131">
             <name>Area Fotografia</name>
-            <styleUrl>#134</styleUrl>
-            <Polygon id="130">
+            <styleUrl>#124</styleUrl>
+            <Polygon id="120">
                 <outerBoundaryIs>
-                    <LinearRing id="132">
-                        <coordinates>-9.174469686258591,38.7767570574638,0.0 -9.145688902685858,38.77679647893671,0.0 -9.145661375235184,38.763260929649114,0.0 -9.17443672083287,38.76322152712469,0.0 -9.174469686258591,38.7767570574638,0.0</coordinates>
+                    <LinearRing id="122">
+                        <coordinates>-8.992474982725533,38.738073511298296,0.0 -8.968715924581353,38.73549220306885,0.0 -8.966811336268737,38.72390253502824,0.0 -8.990347959348748,38.72608769855852,0.0 -8.992474982725533,38.738073511298296,0.0</coordinates>
                     </LinearRing>
                 </outerBoundaryIs>
             </Polygon>
         </Placemark>
-        <Placemark id="137">
-            <name>F0, RumoE-O:90, RumoO-E:270, H:3416</name>
-            <styleUrl>#138</styleUrl>
-            <LineString id="136">
-                <coordinates>-9.177855891487983,38.773164115957734,0.0 -9.17446094604158,38.77316923300705,0.0 -9.17106599974093,38.773174251440835,0.0 -9.167671052602625,38.77317917125902,0.0 -9.16427610464333,38.77318399246152,0.0 -9.16088115587961,38.77318871504827,0.0 -9.157486206328153,38.7731933390192,0.0 -9.154091256005552,38.77319786437425,0.0 -9.150696304928424,38.773202291113336,0.0 -9.147301353113379,38.773206619236404,0.0 -9.143906400577087,38.77321084874339,0.0 -9.140511447336138,38.77321497963423,0.0</coordinates>
+        <Placemark id="127">
+            <name>F0, RumoE-O:90, RumoO-E:270, H:3412</name>
+            <styleUrl>#128</styleUrl>
+            <LineString id="126">
+                <coordinates>-8.995205287196807,38.73488460882648,0.0 -8.991844262748792,38.73451981772088,0.0 -8.988483272511738,38.73415492997039,0.0 -8.985122316500838,38.73378994557873,0.0 -8.981761394731306,38.733424864549704,0.0 -8.978400507218307,38.73305968688707,0.0 -8.975039653977031,38.73269441259457,0.0 -8.971678835022669,38.732329041675975,0.0 -8.968318050370412,38.731963574135065,0.0 -8.964957300035474,38.73159800997558,0.0 -8.96159658403297,38.73123234920132,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="141">
-            <name>F1, RumoE-O:90, RumoO-E:270, H:3416</name>
-            <styleUrl>#142</styleUrl>
-            <LineString id="140">
-                <coordinates>-9.177832138456738,38.76359657500554,0.0 -9.174437646406853,38.763601690316165,0.0 -9.171043153503128,38.76360670704477,0.0 -9.167648659762206,38.76361162519127,0.0 -9.164254165200699,38.763616444755606,0.0 -9.160859669835226,38.763621165737696,0.0 -9.157465173682374,38.763625788137475,0.0 -9.154070676758783,38.76363031195488,0.0 -9.150676179081072,38.76363473718983,0.0 -9.147281680665829,38.76363906384228,0.0 -9.143887181529692,38.763643291912146,0.0 -9.14049268168928,38.76364742139938,0.0</coordinates>
+        <Placemark id="131">
+            <name>F1, RumoE-O:90, RumoO-E:270, H:3412</name>
+            <styleUrl>#132</styleUrl>
+            <LineString id="130">
+                <coordinates>-8.993523285904423,38.72467890322781,0.0 -8.990162748152189,38.72431406318725,0.0 -8.986802244601476,38.72394912653807,0.0 -8.9834417752675,38.723584093284046,0.0 -8.980081340165453,38.72321896342893,0.0 -8.9767209393105,38.722853736976454,0.0 -8.97336057271783,38.722488413930435,0.0 -8.970000240402609,38.722122994294594,0.0 -8.966639942380027,38.72175747807273,0.0 -8.963279678665248,38.72139186526857,0.0 -8.959919449273462,38.721026155885916,0.0</coordinates>
             </LineString>
         </Placemark>
     </Document>
