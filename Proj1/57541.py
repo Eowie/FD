@@ -93,7 +93,7 @@ entry23.grid(row=7,column=3)
 label2 = tk.Label(root, text='Definições do Voo',font=('helvetica', 12))
 label2.grid(row=8,column=0,columnspan=4,ipadx=20, ipady=20)
 
-label3 = tk.Label(root, text='Escala da Fotografia',font=('helvetica', 10))
+label3 = tk.Label(root, text='Modulo Escala da Fotografia',font=('helvetica', 10))
 label3.grid(row=9,column=0,sticky='e')
 entry5 = tk.Entry(root) 
 entry5.grid(row=9,column=1)
@@ -432,7 +432,7 @@ nfx=(Q//A)+1
 # =============================================================================
 # #Outputs orcamento
 # =============================================================================
-N=nfx*nf+2*nfx
+N=nfx*nf+nfx
 Custofoto=N*precofoto
 if camera=='Leica ADS40':
     T=(B/v)*nfx*(nf)+tf*(nfx-1)
@@ -457,34 +457,34 @@ l1 = ["Dados do Utilizador\n",
       "Camara Escolhida: "+str(camera)+"\n", 
       "s1(px): "+str(int(ss1))+"\n",
       "s2(px): "+str(int(ss2))+"\n", 
-      "c(mm): "+str(round(c))+"\n", 
-      "px(micrometro): "+str(round(px))+"\n",
-      "Sobreposicao Longitudinal(%): "+str(round(slong))+"\n",
-      "Sobreposicao Lateral(%): "+str(round(slat))+"\n", 
-      "Margem de Seguranca(%): "+str(round(mseg))+"\n",
-      "Cota Media(m): "+str(round(Zmed))+"\n",
-      "Preco Foto(€): "+str(round(precofoto))+"\n", 
-      "Preco por Hora Voo(€): "+str(round(precohvoo))+"\n",
-      "Tempo Mudanca de Faixa (s): "+str(round(tf))+"\n",
-      "Velocidade do Aviao(m/s): "+str(round(v))+"\n",     
+      "c(mm): "+str(round(c,2))+"\n", 
+      "px(micrometro): "+str(round(px,2))+"\n",
+      "Sobreposicao Longitudinal(%): "+str(round(slong,2))+"\n",
+      "Sobreposicao Lateral(%): "+str(round(slat,2))+"\n", 
+      "Margem de Seguranca(%): "+str(round(mseg,2))+"\n",
+      "Cota Media(m): "+str(round(Zmed,2))+"\n",
+      "Preco Foto(€): "+str(round(precofoto,2))+"\n", 
+      "Preco por Hora Voo(€): "+str(round(precohvoo,2))+"\n",
+      "Tempo Mudanca de Faixa (s): "+str(round(tf,2))+"\n",
+      "Velocidade do Aviao(m/s): "+str(round(v,2))+"\n",     
       "\n",
       "\n",
       "Dados do Calculo\n",
-      "L(m): "+str(round(L))+"\n", 
-      "Q(m): "+str(round(Q))+"\n",
-      "h(m): "+str(round(h))+"\n", 
-      "B(m): "+str(round(B))+"\n",
-      "A(m): "+str(round(A))+"\n", 
-      "A1(para a primeira fiada)(m): "+str(round(A1))+"\n",
-      "Cota Absoluta(m): "+str(round(Z0))+"\n", 
+      "L(m): "+str(round(L,2))+"\n", 
+      "Q(m): "+str(round(Q,2))+"\n",
+      "h(m): "+str(round(h,2))+"\n", 
+      "B(m): "+str(round(B,2))+"\n",
+      "A(m): "+str(round(A,2))+"\n", 
+      "A1(para a primeira fiada)(m): "+str(round(A1,2))+"\n",
+      "Cota Absoluta(m): "+str(round(Z0,2))+"\n", 
       "Numero de Fotos por Fiada: "+str(int(nf))+"\n", 
       "Numero de Fiadas: "+str(int(nfx))+"\n",
       "Numero de Fotos total(inclui fotos de seguranca): "+str(int(N))+"\n", 
-      "Tempo de Voo(s): "+str(round(T))+"\n",
-      "Tempo de Voo(h): "+str(round(T/3600))+"\n",
-      "Custo do Voo(€): "+str(round(Custovoo))+"\n",
-      "Custo Fotos(€): "+str(round(Custofoto))+"\n",
-      "Orcamento total(€): "+str(round(Custototal))+"\n",]
+      "Tempo de Voo(s): "+str(round(T,2))+"\n",
+      "Tempo de Voo(h): "+str(round(T/3600,2))+"\n",
+      "Custo do Voo(€): "+str(round(Custovoo,2))+"\n",
+      "Custo Fotos(€): "+str(round(Custofoto,2))+"\n",
+      "Orcamento total(€): "+str(round(Custototal,2))+"\n",]
 
 f = open("DadosVoo.txt", "w")
 for i in l1:
@@ -600,7 +600,7 @@ else:
         testla.append(p0x)
         testlo.append(p0y)
         plt.plot(testla,testlo,'r')
-        for n in range (int(nf+1)):
+        for n in range (int(nf)):
             if camera=='Leica ADS40':
                 p0x+=(deltaxp+2*auxx)
                 p0y+=(deltayp+2*auxy)
@@ -672,7 +672,7 @@ plt.savefig('graficoplanovoo.png', dpi=300, bbox_inches='tight')
 f2 = open("CoordenadasVoo.txt", "w")
 
 for i in lp:
-    f2.write(str(lp.index(i)))
+    f2.write(str(round(lp.index(i),2)))
     f2.write(' '+str(i))
     f2.write('\n')
 f2.close()
