@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE phini SYSTEM "phini4.dtd">
+<phini><!-- 7.1.3520 Lite x64 -->
+  <x n="cameras">
+    <x>
+      <s n="camera_id" v="Cameras/DMS.x-cam"/>
+      <s n="camera_name" v="DMS.x-cam"/>
+      <x n="camera_label">
+        <i n="size" v="682"/>
+        <s n="timestamp" v="2021-12-06T10:52:02.2145089+00:00"/>
+        <i n="part_crc" v="0x57FC3A08"/>
+      </x>
+      <x n="cam_to_mm_transform">
+        <s n="name" v="UnityTransform"/>
+        <x n="data">
+        </x>
+      </x>
+    </x>
+  </x>
+  <x n="images">
+    <x>
+      <i n="code_im" v="11"/>
+      <s n="image_name" v="11"/>
+      <x n="image_label">
+        <i n="size" v="100717556"/>
+        <s n="timestamp" v="2021-12-06T10:49:26.2995161+00:00"/>
+        <i n="part_crc" v="0xD3AACF57"/>
+      </x>
+      <s n="camera_id" v="Cameras/DMS.x-cam"/>
+      <x n="camera_label">
+        <i n="size" v="682"/>
+        <s n="timestamp" v="2021-12-06T10:52:02.2145089+00:00"/>
+        <i n="part_crc" v="0x57FC3A08"/>
+      </x>
+      <x n="measurements">
+        <s n="camera_type" v="Digital"/>
+        <s n="rotation" v="0"/>
+      </x>
+      <x n="pix_to_cam_transform">
+        <s n="name" v="ProjectiveTransform"/>
+        <x n="data">
+          <d n="m00" v="1.2000000000000000e-02"/>
+          <d n="m01" v="0.0000000000000000e+00"/>
+          <d n="m02" v="-4.6073999999999998e+01"/>
+          <d n="m10" v="-0.0000000000000000e+00"/>
+          <d n="m11" v="1.2000000000000000e-02"/>
+          <d n="m12" v="-8.2938000000000002e+01"/>
+          <d n="m20" v="0.0000000000000000e+00"/>
+          <d n="m21" v="0.0000000000000000e+00"/>
+          <d n="m22" v="1.0000000000000000e+00"/>
+        </x>
+      </x>
+    </x>
+    <x>
+      <i n="code_im" v="12"/>
+      <s n="image_name" v="12"/>
+      <x n="image_label">
+        <i n="size" v="103100285"/>
+        <s n="timestamp" v="2021-12-06T10:49:38.3439320+00:00"/>
+        <i n="part_crc" v="0x50599009"/>
+      </x>
+      <s n="camera_id" v="Cameras/DMS.x-cam"/>
+      <x n="camera_label">
+        <i n="size" v="682"/>
+        <s n="timestamp" v="2021-12-06T10:52:02.2145089+00:00"/>
+        <i n="part_crc" v="0x57FC3A08"/>
+      </x>
+      <x n="measurements">
+        <s n="camera_type" v="Digital"/>
+        <s n="rotation" v="0"/>
+      </x>
+      <x n="pix_to_cam_transform">
+        <s n="name" v="ProjectiveTransform"/>
+        <x n="data">
+          <d n="m00" v="1.2000000000000000e-02"/>
+          <d n="m01" v="0.0000000000000000e+00"/>
+          <d n="m02" v="-4.6073999999999998e+01"/>
+          <d n="m10" v="-0.0000000000000000e+00"/>
+          <d n="m11" v="1.2000000000000000e-02"/>
+          <d n="m12" v="-8.2938000000000002e+01"/>
+          <d n="m20" v="0.0000000000000000e+00"/>
+          <d n="m21" v="0.0000000000000000e+00"/>
+          <d n="m22" v="1.0000000000000000e+00"/>
+        </x>
+      </x>
+    </x>
+  </x>
+</phini>

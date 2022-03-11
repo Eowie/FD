@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE phini SYSTEM "phini4.dtd">
+<phini><!-- 7.1.3520 Lite x64 -->
+  <x>
+    <i n="code_im" v="11"/>
+    <s n="center_type" v="control"/>
+    <x n="center_g"><d n="x" v="-8.8579769000000000e+04"/><d n="y" v="-1.0070824800000001e+05"/><d n="z" v="1.0951040000000000e+03"/></x>
+    <x n="center_r_std_dev_g"><d n="x" v="3.3333333333333336e+01"/><d n="y" v="3.3333333333333336e+01"/><d n="z" v="2.3809523809523807e+01"/></x>
+    <s n="angles_type" v="control"/>
+    <x n="angles_g">
+      <d n="alpha" v="-8.1821162453421664e-03"/>
+      <d n="omega" v="1.7627235384410538e-03"/>
+      <d n="kappa" v="2.3829549925181887e-01"/>
+    </x>
+    <x n="angles_r_std_dev_g">
+      <d n="alpha" v="1.4691225516174956e+04"/>
+      <d n="omega" v="1.4691225516174956e+04"/>
+      <d n="kappa" v="8.4258499283944602e+03"/>
+    </x>
+  </x>
+  <x>
+    <i n="code_im" v="12"/>
+    <s n="center_type" v="control"/>
+    <x n="center_g"><d n="x" v="-8.8296326000000001e+04"/><d n="y" v="-1.0064198000000000e+05"/><d n="z" v="1.0979400000000001e+03"/></x>
+    <x n="center_r_std_dev_g"><d n="x" v="3.3333333333333336e+01"/><d n="y" v="3.3333333333333336e+01"/><d n="z" v="2.3809523809523807e+01"/></x>
+    <s n="angles_type" v="control"/>
+    <x n="angles_g">
+      <d n="alpha" v="-2.2619697853802812e-03"/>
+      <d n="omega" v="4.5169005489165233e-03"/>
+      <d n="kappa" v="2.2991022213569706e-01"/>
+    </x>
+    <x n="angles_r_std_dev_g">
+      <d n="alpha" v="1.4691225516174956e+04"/>
+      <d n="omega" v="1.4691225516174956e+04"/>
+      <d n="kappa" v="8.5516088825495990e+03"/>
+    </x>
+  </x>
+</phini>

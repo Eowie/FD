@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE phini SYSTEM "phini4.dtd">
+<phini><!-- 7.1.3520 Lite x64 -->
+  <i n="width" v="7680"/>
+  <i n="height" v="13824"/>
+  <i n="pixel_size_x_um" v="500"/>
+  <i n="pixel_size_y_um" v="500"/>
+  <i n="serial" v="15130253261658"/>
+  <x n="channels">
+    <s n="type" v="U"/>
+    <i n="bytes_ps" v="1"/>
+    <s n="channels" v="R,G,B"/>
+  </x>
+  <x n="display_channels">
+    <s n="type" v="U"/>
+    <i n="bytes_ps" v="1"/>
+    <s n="channels" v="R,G,B"/>
+  </x>
+  <x n="resource_label">
+    <i n="size" v="100717556"/>
+    <s n="timestamp" v="2021-12-06T10:49:26.2995161+00:00"/>
+    <i n="part_crc" v="0xD3AACF57"/>
+  </x>
+  <x n="image_resources">
+    <d n="image_size" v="1.0071755600000000e+08"/>
+    <d n="meta_size" v="0.0000000000000000e+00"/>
+    <x n="rel_image_resources">
+    </x>
+    <x n="rel_aux_resources">
+    </x>
+  </x>
+</phini>

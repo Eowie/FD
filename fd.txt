@@ -1,0 +1,10 @@
+slide 1 -
+apresentacao do trabalho pratico de Fd
+slide 2 - indice
+A estrutura da apresentacao deste trabalho vai seguir a estrutura do plano de voo e a cada passo sao comparados
+os trabalhos feitos em sala de aula com a parte do plano de voo em que se enquadram
+slide 3 - comecamos entao pelo inicio - a definicao do projeto
+slide 4 - Para definir o projeto comecamos por pedir ao cliente informacao sobre o projeto a realizar
+neste caso as informacoes dadas sao as seguintes
+slide 5 - apos obter a informacao do cliente e antes de passar 'a criacao do plano de voo sobre um globo
+virtual, pode ser necessario efetuar calculos 

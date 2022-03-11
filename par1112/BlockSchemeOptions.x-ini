@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE phini SYSTEM "phini4.dtd">
+<phini><!-- 7.1.3520 Lite x64 -->
+  <i n="Mode" v="0"/>
+  <i n="UseOverlapInStrip" v="1"/>
+  <i n="UseOverlapInterStrip" v="1"/>
+  <d n="OverlapInStrip" v="5.9999999999999998e-01"/>
+  <d n="OverlapInterStrip" v="2.9999999999999999e-01"/>
+  <d n="GridGlobalAngle_deg" v="0.0000000000000000e+00"/>
+  <i n="UseQuickTiesInStrip" v="1"/>
+  <i n="UseQuickTiesInterStrip" v="1"/>
+  <i n="UseTiesInStrip" v="1"/>
+  <i n="UseTiesInterStrip" v="1"/>
+  <i n="UseGCP" v="1"/>
+  <i n="UseImportedExtOr" v="1"/>
+  <i n="UseImportedAngles" v="0"/>
+  <i n="UseSolver" v="1"/>
+  <i n="RestrictSubblock" v="0"/>
+  <d n="ScaleComplexity" v="5.0000000000000000e-01"/>
+  <d n="CurvatureComplexity" v="5.0000000000000000e-01"/>
+  <d n="TransComplexity" v="5.0000000000000000e-01"/>
+  <d n="ExcludedPointsPart" v="2.0000000000000001e-01"/>
+  <i n="MinTiePointCount" v="6"/>
+  <d n="PostprocessingImageScale" v="1.0000000000000000e+00"/>
+</phini>

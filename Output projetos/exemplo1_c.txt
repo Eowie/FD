@@ -1,0 +1,37 @@
+Dados do Utilizador
+Coordenadas Vertice 1: [484845.0, 4290518.0]
+Coordenadas Vertice 2: [488710.0, 4290502.0]
+Coordenadas Vertice 3: [488722.0, 4287616.0]
+Coordenadas Vertice 4: [484775.0, 4287816.0]
+Modulo da Escala da Fotografia: 8000
+Camara Escolhida: Intergraph DMC
+s1(px): 7680
+s2(px): 13824
+c(mm): 120
+px(micrometro): 12
+Sobreposicao Longitudinal(%): 60.0
+Sobreposicao Lateral(%): 30.0
+Margem de Seguranca(%): 20.0
+Cota Media(m): 80.0
+Preco Foto(€): 20.0
+Preco por Hora Voo(€): 2000.0
+Tempo Mudanca de Faixa (s): 300.0
+Velocidade do Aviao(m/s): 55.0
+
+
+Dados do Calculo
+L(m): 3865.03
+Q(m): 2886.02
+h(m): 960.0
+B(m): 294.91
+A(m): 928.97
+A1(para a primeira fiada)(m): 398.13
+Cota Absoluta(m): 1040.0
+Numero de Fotos por Fiada: 15
+Numero de Fiadas: 4
+Numero de Fotos total(inclui fotos de seguranca): 64
+Tempo de Voo(s): 1200.27
+Tempo de Voo(h): 0.33
+Custo do Voo(€): 2400548.07
+Custo Fotos(€): 1280.0
+Orcamento total(€): 2401828.07

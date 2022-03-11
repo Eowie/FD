@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE phini SYSTEM "phini4.dtd">
+<phini><!-- 7.1.3520 Lite x64 -->
+  <x n="block_grid">
+    <i n="iterstrip_stereos_all" v="0"/>
+    <d n="min_interstrip_img_overlap" v="1.0000000000000001e-01"/>
+  </x>
+  <x n="limits">
+    <x n="adjustment">
+      <x n="check">
+        <d n="xy" v="2.0000000000000001e-01"/>
+        <d n="z" v="2.0000000000000001e-01"/>
+      </x>
+      <x n="ground_control">
+        <d n="xy" v="2.0000000000000001e-01"/>
+        <d n="z" v="2.0000000000000001e-01"/>
+      </x>
+      <x n="proj_center">
+        <d n="xy" v="2.0000000000000001e-01"/>
+        <d n="z" v="2.0000000000000001e-01"/>
+      </x>
+      <s n="tie_mode" v=""/>
+      <x n="tie_point">
+        <d n="xy" v="2.0000000000000001e-01"/>
+        <d n="z" v="2.0000000000000001e-01"/>
+      </x>
+      <x n="tie_proj_center">
+        <d n="xy" v="2.0000000000000001e-01"/>
+        <d n="z" v="2.0000000000000001e-01"/>
+      </x>
+      <x n="tie_targeted">
+        <d n="xy" v="2.0000000000000001e-01"/>
+        <d n="z" v="2.0000000000000001e-01"/>
+      </x>
+    </x>
+  </x>
+  <x n="recent_entries/">
+    <x n="layer_dem">
+    </x>
+    <x n="layer_grid">
+    </x>
+    <x n="layer_objects">
+    </x>
+    <x n="layer_tin">
+    </x>
+  </x>
+  <x n="windows">
+    <i n="bs_rotate" v="0"/>
+    <d n="bs_rotate_angle_deg" v="1.8000000000000000e+02"/>
+    <i n="pixel_marker_movement" v="0"/>
+  </x>
+</phini>

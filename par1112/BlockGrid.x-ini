@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE phini SYSTEM "phini4.dtd">
+<phini><!-- 7.1.3520 Lite x64 -->
+  <i n="orientation" v="0"/>
+  <x n="strips">
+    <x>
+      <s n="name" v="Strip 1"/>
+      <x n="images">
+        <x>
+          <i n="code_im" v="11"/>
+          <d n="kappa_deg" v="0.0000000000000000e+00"/>
+        </x>
+        <x>
+          <i n="code_im" v="12"/>
+          <d n="kappa_deg" v="0.0000000000000000e+00"/>
+        </x>
+      </x>
+    </x>
+  </x>
+</phini>

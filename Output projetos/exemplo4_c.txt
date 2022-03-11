@@ -1,0 +1,37 @@
+Dados do Utilizador
+Coordenadas Vertice 1: [500654.0, 4287711.0]
+Coordenadas Vertice 2: [502719.0, 4287425.0]
+Coordenadas Vertice 3: [502885.0, 4286139.0]
+Coordenadas Vertice 4: [500839.0, 4286381.0]
+Modulo da Escala da Fotografia: 8000
+Camara Escolhida: Leica ADS40
+s1(px): 40090
+s2(px): 12000
+c(mm): 62.5
+px(micrometro): 6.5
+Sobreposicao Longitudinal(%): 0
+Sobreposicao Lateral(%): 0.0
+Margem de Seguranca(%): 0.0
+Cota Media(m): 80.0
+Preco Foto(€): 200.0
+Preco por Hora Voo(€): 2000.0
+Tempo Mudanca de Faixa (s): 300.0
+Velocidade do Aviao(m/s): 55.0
+
+
+Dados do Calculo
+L(m): 2084.71
+Q(m): 1296.67
+h(m): 500.0
+B(m): 2084.71
+A(m): 624.0
+A1(para a primeira fiada)(m): 312.0
+Cota Absoluta(m): 580.0
+Numero de Fotos por Fiada: 1
+Numero de Fiadas: 3
+Numero de Fotos total(inclui fotos de seguranca): 6
+Tempo de Voo(s): 713.71
+Tempo de Voo(h): 0.2
+Custo do Voo(€): 1427423.05
+Custo Fotos(€): 1200.0
+Orcamento total(€): 1428623.05

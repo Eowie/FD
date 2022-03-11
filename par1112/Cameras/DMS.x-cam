@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE phini SYSTEM "phini4.dtd">
+<phini><!-- 7.1.3520 Lite x64 -->
+  <s n="name" v="DMS.x-cam"/>
+  <s n="calibration_date" v=""/>
+  <x n="description">
+  </x>
+  <d n="focus" v="1.2000000000000000e+02"/>
+  <x n="principal_point"><d n="x" v="0.0000000000000000e+00"/><d n="y" v="0.0000000000000000e+00"/></x>
+  <x n="int_or">
+    <s n="type" v="Digital"/>
+    <x n="pixel_size"><d n="x" v="1.2000000000000000e-02"/><d n="y" v="1.2000000000000000e-02"/></x>
+    <x n="sensor_dims"><i n="x" v="7680"/><i n="y" v="13824"/></x>
+    <s n="digital_camera_origin" v="Center"/>
+  </x>
+  <x n="distortion">
+    <s n="type" v="None"/>
+  </x>
+</phini>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE phini SYSTEM "phini4.dtd">
+<phini><!-- 7.1.3520 Lite x64 -->
+  <i n="min_max_z_g_valid" v="1"/>
+  <d n="min_z_g" v="0.0000000000000000e+00"/>
+  <d n="max_z_g" v="1.2000000000000000e+02"/>
+  <d n="smv_approximation_ads_grid_step_y" v="1.0000000000000000e+01"/>
+</phini>

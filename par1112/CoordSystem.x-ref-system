@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE phini SYSTEM "phini4.dtd">
+<phini><!-- 7.1.3520 Lite x64 -->
+  <i n="tag" v="0"/><i n="idx" v="0"/><s n="hdr" v="saved reference system "/>
+  <x n="field">
+    <x><i n="tag" v="1020"/><i n="idx" v="0"/><s n="hdr" v="name"/><x n="data"><s v="Lisbon (Lisbon)/Portuguese National Grid"/></x></x>
+    <x><i n="tag" v="1021"/><i n="idx" v="0"/><s n="hdr" v="desc"/><x n="data"><s v="Portugal - onshore. EPSG "/></x></x>
+    <x><i n="tag" v="1022"/><i n="idx" v="0"/><s n="hdr" v="abbr"/><x n="data"><s v="Lisbon / Portuguese Grid"/></x></x>
+    <x><i n="tag" v="1100"/><i n="idx" v="0"/><s n="hdr" v="type"/><x n="data"><s v="5"/></x></x>
+    <x><i n="tag" v="1025"/><i n="idx" v="0"/><s n="hdr" v="axis"/><x n="data"><s v="X"/></x></x>
+    <x><i n="tag" v="1025"/><i n="idx" v="1"/><s n="hdr" v="axis"/><x n="data"><s v="Y"/></x></x>
+    <x><i n="tag" v="1025"/><i n="idx" v="2"/><s n="hdr" v="axis"/><x n="data"><s v="H"/></x></x>
+    <x><i n="tag" v="101001"/><i n="idx" v="0"/><s n="hdr" v="MIF/MID reference system type"/><x n="data"><s v="8"/></x></x>
+    <x><i n="tag" v="102001"/><i n="idx" v="0"/><s n="hdr" v="GeoTIFF ref.system type"/><x n="data"><s v="1"/></x></x>
+    <x><i n="tag" v="102005"/><i n="idx" v="0"/><s n="hdr" v="GeoTIFF ref.system code"/><x n="data"><s v="20790"/></x></x>
+  </x>
+  <x n="subtree">
+    <x>
+      <i n="tag" v="2000"/><i n="idx" v="0"/><s n="hdr" v="refsystem type"/>
+      <x n="field">
+        <x><i n="tag" v="2001"/><i n="idx" v="0"/><s n="hdr" v="type"/><x n="data"><s v="5"/></x></x>
+        <x><i n="tag" v="2002"/><i n="idx" v="0"/><s n="hdr" v="name"/><x n="data"><s v="Projected"/></x></x>
+        <x><i n="tag" v="2003"/><i n="idx" v="0"/><s n="hdr" v="desc"/><x n="data"><s v="Reference system based on map projection"/></x></x>
+        <x><i n="tag" v="2004"/><i n="idx" v="0"/><s n="hdr" v="coord"/><x n="data"><s v="?"/></x></x>
+        <x><i n="tag" v="2004"/><i n="idx" v="1"/><s n="hdr" v="coord"/><x n="data"><s v="?"/></x></x>
+        <x><i n="tag" v="2004"/><i n="idx" v="2"/><s n="hdr" v="coord"/><x n="data"><s v="H"/></x></x>
+        <x><i n="tag" v="2005"/><i n="idx" v="0"/><s n="hdr" v="swap"/><x n="data"><s v="0"/></x></x>
+      </x>
+    </x>
+    <x>
+      <i n="tag" v="1101"/><i n="idx" v="0"/><s n="hdr" v="prime meridian"/>
+      <x n="field">
+        <x><i n="tag" v="5220"/><i n="idx" v="0"/><s n="hdr" v="name"/><x n="data"><s v="Lisbon"/></x></x>
+        <x><i n="tag" v="5221"/><i n="idx" v="0"/><s n="hdr" v="desc"/><x n="data"><s v="Instituto Geografico e Cadastral; Lisbon EPSG "/></x></x>
+        <x><i n="tag" v="5210"/><i n="idx" v="0"/><s n="hdr" v="long"/><x n="data"><s v="-9.0754862"/></x></x>
+        <x><i n="tag" v="102009"/><i n="idx" v="0"/><s n="hdr" v="GeoTIFF prime meridian"/><x n="data"><s v="8902"/></x></x>
+      </x>
+      <x n="subtree">
+        <x>
+          <i n="tag" v="5211"/><i n="idx" v="0"/><s n="hdr" v="angular unit"/>
+          <x n="field">
+            <x><i n="tag" v="5301"/><i n="idx" v="0"/><s n="hdr" v="code"/><x n="data"><s v="10"/></x></x>
+            <x><i n="tag" v="5312"/><i n="idx" v="0"/><s n="hdr" v="type"/><x n="data"><s v="2"/></x></x>
+            <x><i n="tag" v="5310"/><i n="idx" v="0"/><s n="hdr" v="f_b"/><x n="data"><s v="0"/></x></x>
+            <x><i n="tag" v="5311"/><i n="idx" v="0"/><s n="hdr" v="f_c"/><x n="data"><s v="0"/></x></x>
+            <x><i n="tag" v="5320"/><i n="idx" v="0"/><s n="hdr" v="name"/><x n="data"><s v="DDD.MMSSsss"/></x></x>
+            <x><i n="tag" v="5321"/><i n="idx" v="0"/><s n="hdr" v="abbr"/><x n="data"><s v="DDD.MMSSsss"/></x></x>
+            <x><i n="tag" v="5322"/><i n="idx" v="0"/><s n="hdr" v="desc"/><x n="data"><s v="sexagesimal degrees EPSG Format: degrees - decimal point - minutes (two digits) - integer seconds (two digits) - fraction of seconds (any precision).  Must include leading zero in minutes and seconds.  Must exclude decimal point for seconds.  Convert to d"/></x></x>
+            <x><i n="tag" v="102003"/><i n="idx" v="0"/><s n="hdr" v="GeoTIFF angular unit"/><x n="data"><s v="9110"/></x></x>
+          </x>
+        </x>
+      </x>
+    </x>
+    <x>
+      <i n="tag" v="1201"/><i n="idx" v="0"/><s n="hdr" v="vertical reference system"/>
+      <x n="subtree">
+        <x>
+          <i n="tag" v="1104"/><i n="idx" v="0"/><s n="hdr" v="linear unit"/>
+          <x n="field">
+            <x><i n="tag" v="5301"/><i n="idx" v="0"/><s n="hdr" v="code"/><x n="data"><s v="0"/></x></x>
+            <x><i n="tag" v="5312"/><i n="idx" v="0"/><s n="hdr" v="type"/><x n="data"><s v="1"/></x></x>
+            <x><i n="tag" v="5310"/><i n="idx" v="0"/><s n="hdr" v="f_b"/><x n="data"><s v="1"/></x></x>
+            <x><i n="tag" v="5311"/><i n="idx" v="0"/><s n="hdr" v="f_c"/><x n="data"><s v="1"/></x></x>
+            <x><i n="tag" v="5320"/><i n="idx" v="0"/><s n="hdr" v="name"/><x n="data"><s v="metre"/></x></x>
+            <x><i n="tag" v="5321"/><i n="idx" v="0"/><s n="hdr" v="abbr"/><x n="data"><s v="m"/></x></x>
+            <x><i n="tag" v="5322"/><i n="idx" v="0"/><s n="hdr" v="desc"/><x n="data"><s v="ISO 1000. Also known as International metre. "/></x></x>
+            <x><i n="tag" v="102002"/><i n="idx" v="0"/><s n="hdr" v="GeoTIFF linear unit"/><x n="data"><s v="9001"/></x></x>
+            <x><i n="tag" v="101002"/><i n="idx" v="0"/><s n="hdr" v="MIF/MID unit name"/><x n="data"><s v="m"/></x></x>
+          </x>
+        </x>
+      </x>
+    </x>
+    <x>
+      <i n="tag" v="1104"/><i n="idx" v="0"/><s n="hdr" v="linear unit"/>
+      <x n="field">
+        <x><i n="tag" v="5301"/><i n="idx" v="0"/><s n="hdr" v="code"/><x n="data"><s v="0"/></x></x>
+        <x><i n="tag" v="5312"/><i n="idx" v="0"/><s n="hdr" v="type"/><x n="data"><s v="1"/></x></x>
+        <x><i n="tag" v="5310"/><i n="idx" v="0"/><s n="hdr" v="f_b"/><x n="data"><s v="1"/></x></x>
+        <x><i n="tag" v="5311"/><i n="idx" v="0"/><s n="hdr" v="f_c"/><x n="data"><s v="1"/></x></x>
+        <x><i n="tag" v="5320"/><i n="idx" v="0"/><s n="hdr" v="name"/><x n="data"><s v="metre"/></x></x>
+        <x><i n="tag" v="5321"/><i n="idx" v="0"/><s n="hdr" v="abbr"/><x n="data"><s v="m"/></x></x>
+        <x><i n="tag" v="5322"/><i n="idx" v="0"/><s n="hdr" v="desc"/><x n="data"><s v="ISO 1000. Also known as International metre. "/></x></x>
+        <x><i n="tag" v="102002"/><i n="idx" v="0"/><s n="hdr" v="GeoTIFF linear unit"/><x n="data"><s v="9001"/></x></x>
+        <x><i n="tag" v="101002"/><i n="idx" v="0"/><s n="hdr" v="MIF/MID unit name"/><x n="data"><s v="m"/></x></x>
+      </x>
+    </x>
+    <x>
+      <i n="tag" v="1300"/><i n="idx" v="0"/><s n="hdr" v="PROJECTION"/>
+      <x n="field">
+        <x><i n="tag" v="6001"/><i n="idx" v="0"/><s n="hdr" v="type"/><x n="data"><s v="1"/></x></x>
+        <x><i n="tag" v="6020"/><i n="idx" v="0"/><s n="hdr" v="name"/><x n="data"><s v="Portuguese National Grid"/></x></x>
+        <x><i n="tag" v="6021"/><i n="idx" v="0"/><s n="hdr" v="description"/><x n="data"><s v="Portugal onshore. EPSG Original transformation by Gauss-Kruger formula. "/></x></x>
+        <x><i n="tag" v="6022"/><i n="idx" v="0"/><s n="hdr" v="coord abbr"/><x n="data"><s v="X"/></x></x>
+        <x><i n="tag" v="6022"/><i n="idx" v="1"/><s n="hdr" v="coord abbr"/><x n="data"><s v="Y"/></x></x>
+        <x><i n="tag" v="6023"/><i n="idx" v="0"/><s n="hdr" v="coord desc"/><x n="data"><s v="East"/></x></x>
+        <x><i n="tag" v="6023"/><i n="idx" v="1"/><s n="hdr" v="coord desc"/><x n="data"><s v="North"/></x></x>
+        <x><i n="tag" v="6024"/><i n="idx" v="0"/><s n="hdr" v="coord sign"/><x n="data"><s v="1"/></x></x>
+        <x><i n="tag" v="6024"/><i n="idx" v="1"/><s n="hdr" v="coord sign"/><x n="data"><s v="1"/></x></x>
+        <x><i n="tag" v="6025"/><i n="idx" v="0"/><s n="hdr" v="swap coords"/><x n="data"><s v="0"/></x></x>
+        <x><i n="tag" v="1400"/><i n="idx" v="0"/><s n="hdr" v="swap"/><x n="data"><s v="0"/></x></x>
+        <x><i n="tag" v="1401"/><i n="idx" v="0"/><s n="hdr" v="sign"/><x n="data"><s v="1"/></x></x>
+        <x><i n="tag" v="1401"/><i n="idx" v="1"/><s n="hdr" v="sign"/><x n="data"><s v="1"/></x></x>
+        <x><i n="tag" v="6101"/><i n="idx" v="0"/><s n="hdr" v="central meridian longitude"/><x n="data"><s v="1.0"/></x></x>
+        <x><i n="tag" v="6102"/><i n="idx" v="0"/><s n="hdr" v="latitude of origin"/><x n="data"><s v="39.4"/></x></x>
+        <x><i n="tag" v="6103"/><i n="idx" v="0"/><s n="hdr" v="central meridian scale factor"/><x n="data"><s v="1.0"/></x></x>
+        <x><i n="tag" v="6104"/><i n="idx" v="0"/><s n="hdr" v="false easting at origin"/><x n="data"><s v="200000.0"/></x></x>
+        <x><i n="tag" v="6105"/><i n="idx" v="0"/><s n="hdr" v="false northing at origin"/><x n="data"><s v="300000.0"/></x></x>
+        <x><i n="tag" v="102007"/><i n="idx" v="0"/><s n="hdr" v="GeoTIFF map projection"/><x n="data"><s v="19936"/></x></x>
+        <x><i n="tag" v="102008"/><i n="idx" v="0"/><s n="hdr" v="GeoTIFF map proj type"/><x n="data"><s v="1"/></x></x>
+      </x>
+      <x n="subtree">
+        <x>
+          <i n="tag" v="5800"/><i n="idx" v="0"/><s n="hdr" v="map proj type"/>
+          <x n="field">
+            <x><i n="tag" v="5801"/><i n="idx" v="0"/><s n="hdr" v="type"/><x n="data"><s v="1"/></x></x>
+            <x><i n="tag" v="5802"/><i n="idx" v="0"/><s n="hdr" v="name"/><x n="data"><s v="Transverse Mercator"/></x></x>
+            <x><i n="tag" v="5803"/><i n="idx" v="0"/><s n="hdr" v="desc"/><x n="data"><s v="General form ot the Transverse Mercator projection"/></x></x>
+            <x><i n="tag" v="5830"/><i n="idx" v="6101"/><s n="hdr" v="map_proj_param_name"/><x n="data"><s v="central meridian longitude"/></x></x>
+            <x><i n="tag" v="5830"/><i n="idx" v="6102"/><s n="hdr" v="map_proj_param_name"/><x n="data"><s v="latitude of origin"/></x></x>
+            <x><i n="tag" v="5830"/><i n="idx" v="6103"/><s n="hdr" v="map_proj_param_name"/><x n="data"><s v="central meridian scale factor"/></x></x>
+            <x><i n="tag" v="5830"/><i n="idx" v="6104"/><s n="hdr" v="map_proj_param_name"/><x n="data"><s v="false easting at origin"/></x></x>
+            <x><i n="tag" v="5830"/><i n="idx" v="6105"/><s n="hdr" v="map_proj_param_name"/><x n="data"><s v="false northing at origin"/></x></x>
+          </x>
+        </x>
+        <x>
+          <i n="tag" v="6091"/><i n="idx" v="0"/><s n="hdr" v="linear unit"/>
+          <x n="field">
+            <x><i n="tag" v="5301"/><i n="idx" v="0"/><s n="hdr" v="code"/><x n="data"><s v="0"/></x></x>
+            <x><i n="tag" v="5312"/><i n="idx" v="0"/><s n="hdr" v="type"/><x n="data"><s v="1"/></x></x>
+            <x><i n="tag" v="5310"/><i n="idx" v="0"/><s n="hdr" v="f_b"/><x n="data"><s v="1"/></x></x>
+            <x><i n="tag" v="5311"/><i n="idx" v="0"/><s n="hdr" v="f_c"/><x n="data"><s v="1"/></x></x>
+            <x><i n="tag" v="5320"/><i n="idx" v="0"/><s n="hdr" v="name"/><x n="data"><s v="metre"/></x></x>
+            <x><i n="tag" v="5321"/><i n="idx" v="0"/><s n="hdr" v="abbr"/><x n="data"><s v="m"/></x></x>
+            <x><i n="tag" v="5322"/><i n="idx" v="0"/><s n="hdr" v="desc"/><x n="data"><s v="ISO 1000. Also known as International metre. "/></x></x>
+            <x><i n="tag" v="102002"/><i n="idx" v="0"/><s n="hdr" v="GeoTIFF linear unit"/><x n="data"><s v="9001"/></x></x>
+            <x><i n="tag" v="101002"/><i n="idx" v="0"/><s n="hdr" v="MIF/MID unit name"/><x n="data"><s v="m"/></x></x>
+          </x>
+        </x>
+        <x>
+          <i n="tag" v="6090"/><i n="idx" v="0"/><s n="hdr" v="angular unit"/>
+          <x n="field">
+            <x><i n="tag" v="5301"/><i n="idx" v="0"/><s n="hdr" v="code"/><x n="data"><s v="10"/></x></x>
+            <x><i n="tag" v="5312"/><i n="idx" v="0"/><s n="hdr" v="type"/><x n="data"><s v="2"/></x></x>
+            <x><i n="tag" v="5310"/><i n="idx" v="0"/><s n="hdr" v="f_b"/><x n="data"><s v="0"/></x></x>
+            <x><i n="tag" v="5311"/><i n="idx" v="0"/><s n="hdr" v="f_c"/><x n="data"><s v="0"/></x></x>
+            <x><i n="tag" v="5320"/><i n="idx" v="0"/><s n="hdr" v="name"/><x n="data"><s v="DDD.MMSSsss"/></x></x>
+            <x><i n="tag" v="5321"/><i n="idx" v="0"/><s n="hdr" v="abbr"/><x n="data"><s v="DDD.MMSSsss"/></x></x>
+            <x><i n="tag" v="5322"/><i n="idx" v="0"/><s n="hdr" v="desc"/><x n="data"><s v="sexagesimal degrees EPSG Format: degrees - decimal point - minutes (two digits) - integer seconds (two digits) - fraction of seconds (any precision).  Must include leading zero in minutes and seconds.  Must exclude decimal point for seconds.  Convert to d"/></x></x>
+            <x><i n="tag" v="102003"/><i n="idx" v="0"/><s n="hdr" v="GeoTIFF angular unit"/><x n="data"><s v="9110"/></x></x>
+          </x>
+        </x>
+        <x>
+          <i n="tag" v="6092"/><i n="idx" v="0"/><s n="hdr" v="scale unit"/>
+          <x n="field">
+            <x><i n="tag" v="5301"/><i n="idx" v="0"/><s n="hdr" v="code"/><x n="data"><s v="0"/></x></x>
+            <x><i n="tag" v="5312"/><i n="idx" v="0"/><s n="hdr" v="type"/><x n="data"><s v="3"/></x></x>
+            <x><i n="tag" v="5310"/><i n="idx" v="0"/><s n="hdr" v="f_b"/><x n="data"><s v="1"/></x></x>
+            <x><i n="tag" v="5311"/><i n="idx" v="0"/><s n="hdr" v="f_c"/><x n="data"><s v="1"/></x></x>
+            <x><i n="tag" v="5320"/><i n="idx" v="0"/><s n="hdr" v="name"/><x n="data"><s v="unity"/></x></x>
+            <x><i n="tag" v="5321"/><i n="idx" v="0"/><s n="hdr" v="abbr"/><x n="data"><s v="unity"/></x></x>
+            <x><i n="tag" v="5322"/><i n="idx" v="0"/><s n="hdr" v="desc"/><x n="data"><s v="EPSG "/></x></x>
+          </x>
+        </x>
+      </x>
+    </x>
+    <x>
+      <i n="tag" v="1121"/><i n="idx" v="0"/><s n="hdr" v="reference system"/>
+      <x n="field">
+        <x><i n="tag" v="1020"/><i n="idx" v="0"/><s n="hdr" v="name"/><x n="data"><s v="Lisbon (Lisbon)"/></x></x>
+        <x><i n="tag" v="1021"/><i n="idx" v="0"/><s n="hdr" v="desc"/><x n="data"><s v="Portugal - onshore Instituto Geografico e Cadastral; Lisbon EPSG "/></x></x>
+        <x><i n="tag" v="1022"/><i n="idx" v="0"/><s n="hdr" v="abbr"/><x n="data"><s v=""/></x></x>
+        <x><i n="tag" v="1100"/><i n="idx" v="0"/><s n="hdr" v="type"/><x n="data"><s v="4"/></x></x>
+        <x><i n="tag" v="1025"/><i n="idx" v="0"/><s n="hdr" v="axis"/><x n="data"><s v="Lat"/></x></x>
+        <x><i n="tag" v="1025"/><i n="idx" v="1"/><s n="hdr" v="axis"/><x n="data"><s v="Long"/></x></x>
+        <x><i n="tag" v="1025"/><i n="idx" v="2"/><s n="hdr" v="axis"/><x n="data"><s v="H"/></x></x>
+        <x><i n="tag" v="101001"/><i n="idx" v="0"/><s n="hdr" v="MIF/MID reference system type"/><x n="data"><s v="1"/></x></x>
+        <x><i n="tag" v="102001"/><i n="idx" v="0"/><s n="hdr" v="GeoTIFF ref.system type"/><x n="data"><s v="2"/></x></x>
+        <x><i n="tag" v="102005"/><i n="idx" v="0"/><s n="hdr" v="GeoTIFF ref.system code"/><x n="data"><s v="4803"/></x></x>
+      </x>
+      <x n="subtree">
+        <x>
+          <i n="tag" v="2000"/><i n="idx" v="0"/><s n="hdr" v="refsystem type"/>
+          <x n="field">
+            <x><i n="tag" v="2001"/><i n="idx" v="0"/><s n="hdr" v="type"/><x n="data"><s v="4"/></x></x>
+            <x><i n="tag" v="2002"/><i n="idx" v="0"/><s n="hdr" v="name"/><x n="data"><s v="Latitude/longitude"/></x></x>
+            <x><i n="tag" v="2003"/><i n="idx" v="0"/><s n="hdr" v="desc"/><x n="data"><s v="Geographic (latitude-longitude-height) reference system"/></x></x>
+            <x><i n="tag" v="2004"/><i n="idx" v="0"/><s n="hdr" v="coord"/><x n="data"><s v="Lat"/></x></x>
+            <x><i n="tag" v="2004"/><i n="idx" v="1"/><s n="hdr" v="coord"/><x n="data"><s v="Lon"/></x></x>
+            <x><i n="tag" v="2004"/><i n="idx" v="2"/><s n="hdr" v="coord"/><x n="data"><s v="H"/></x></x>
+            <x><i n="tag" v="2005"/><i n="idx" v="0"/><s n="hdr" v="swap"/><x n="data"><s v="0"/></x></x>
+          </x>
+        </x>
+        <x>
+          <i n="tag" v="1106"/><i n="idx" v="0"/><s n="hdr" v="angular unit"/>
+          <x n="field">
+            <x><i n="tag" v="5301"/><i n="idx" v="0"/><s n="hdr" v="code"/><x n="data"><s v="8"/></x></x>
+            <x><i n="tag" v="5312"/><i n="idx" v="0"/><s n="hdr" v="type"/><x n="data"><s v="2"/></x></x>
+            <x><i n="tag" v="5310"/><i n="idx" v="0"/><s n="hdr" v="f_b"/><x n="data"><s v="0"/></x></x>
+            <x><i n="tag" v="5311"/><i n="idx" v="0"/><s n="hdr" v="f_c"/><x n="data"><s v="0"/></x></x>
+            <x><i n="tag" v="5320"/><i n="idx" v="0"/><s n="hdr" v="name"/><x n="data"><s v="DMSH"/></x></x>
+            <x><i n="tag" v="5321"/><i n="idx" v="0"/><s n="hdr" v="abbr"/><x n="data"><s v="DMSH"/></x></x>
+            <x><i n="tag" v="5322"/><i n="idx" v="0"/><s n="hdr" v="desc"/><x n="data"><s v="degree minute second hemisphere EPSG Format: degrees (integer) - space - arc-minutes (integer) - space - arc-seconds (real) - hemisphere (single character N S E or W).  Convert to degrees using formula. "/></x></x>
+            <x><i n="tag" v="102003"/><i n="idx" v="0"/><s n="hdr" v="GeoTIFF angular unit"/><x n="data"><s v="9108"/></x></x>
+          </x>
+        </x>
+        <x>
+          <i n="tag" v="1101"/><i n="idx" v="0"/><s n="hdr" v="prime meridian"/>
+          <x n="field">
+            <x><i n="tag" v="5220"/><i n="idx" v="0"/><s n="hdr" v="name"/><x n="data"><s v="Lisbon"/></x></x>
+            <x><i n="tag" v="5221"/><i n="idx" v="0"/><s n="hdr" v="desc"/><x n="data"><s v="Instituto Geografico e Cadastral; Lisbon EPSG "/></x></x>
+            <x><i n="tag" v="5210"/><i n="idx" v="0"/><s n="hdr" v="long"/><x n="data"><s v="-9.0754862"/></x></x>
+            <x><i n="tag" v="102009"/><i n="idx" v="0"/><s n="hdr" v="GeoTIFF prime meridian"/><x n="data"><s v="8902"/></x></x>
+          </x>
+          <x n="subtree">
+            <x>
+              <i n="tag" v="5211"/><i n="idx" v="0"/><s n="hdr" v="angular unit"/>
+              <x n="field">
+                <x><i n="tag" v="5301"/><i n="idx" v="0"/><s n="hdr" v="code"/><x n="data"><s v="10"/></x></x>
+                <x><i n="tag" v="5312"/><i n="idx" v="0"/><s n="hdr" v="type"/><x n="data"><s v="2"/></x></x>
+                <x><i n="tag" v="5310"/><i n="idx" v="0"/><s n="hdr" v="f_b"/><x n="data"><s v="0"/></x></x>
+                <x><i n="tag" v="5311"/><i n="idx" v="0"/><s n="hdr" v="f_c"/><x n="data"><s v="0"/></x></x>
+                <x><i n="tag" v="5320"/><i n="idx" v="0"/><s n="hdr" v="name"/><x n="data"><s v="DDD.MMSSsss"/></x></x>
+                <x><i n="tag" v="5321"/><i n="idx" v="0"/><s n="hdr" v="abbr"/><x n="data"><s v="DDD.MMSSsss"/></x></x>
+                <x><i n="tag" v="5322"/><i n="idx" v="0"/><s n="hdr" v="desc"/><x n="data"><s v="sexagesimal degrees EPSG Format: degrees - decimal point - minutes (two digits) - integer seconds (two digits) - fraction of seconds (any precision).  Must include leading zero in minutes and seconds.  Must exclude decimal point for seconds.  Convert to d"/></x></x>
+                <x><i n="tag" v="102003"/><i n="idx" v="0"/><s n="hdr" v="GeoTIFF angular unit"/><x n="data"><s v="9110"/></x></x>
+              </x>
+            </x>
+          </x>
+        </x>
+        <x>
+          <i n="tag" v="1201"/><i n="idx" v="0"/><s n="hdr" v="vertical reference system"/>
+          <x n="subtree">
+            <x>
+              <i n="tag" v="1104"/><i n="idx" v="0"/><s n="hdr" v="linear unit"/>
+              <x n="field">
+                <x><i n="tag" v="5301"/><i n="idx" v="0"/><s n="hdr" v="code"/><x n="data"><s v="0"/></x></x>
+                <x><i n="tag" v="5312"/><i n="idx" v="0"/><s n="hdr" v="type"/><x n="data"><s v="1"/></x></x>
+                <x><i n="tag" v="5310"/><i n="idx" v="0"/><s n="hdr" v="f_b"/><x n="data"><s v="1"/></x></x>
+                <x><i n="tag" v="5311"/><i n="idx" v="0"/><s n="hdr" v="f_c"/><x n="data"><s v="1"/></x></x>
+                <x><i n="tag" v="5320"/><i n="idx" v="0"/><s n="hdr" v="name"/><x n="data"><s v="metre"/></x></x>
+                <x><i n="tag" v="5321"/><i n="idx" v="0"/><s n="hdr" v="abbr"/><x n="data"><s v="m"/></x></x>
+                <x><i n="tag" v="5322"/><i n="idx" v="0"/><s n="hdr" v="desc"/><x n="data"><s v="ISO 1000. Also known as International metre. "/></x></x>
+                <x><i n="tag" v="102002"/><i n="idx" v="0"/><s n="hdr" v="GeoTIFF linear unit"/><x n="data"><s v="9001"/></x></x>
+                <x><i n="tag" v="101002"/><i n="idx" v="0"/><s n="hdr" v="MIF/MID unit name"/><x n="data"><s v="m"/></x></x>
+              </x>
+            </x>
+          </x>
+        </x>
+        <x>
+          <i n="tag" v="1103"/><i n="idx" v="0"/><s n="hdr" v="ellipsoid"/>
+          <x n="field">
+            <x><i n="tag" v="5120"/><i n="idx" v="0"/><s n="hdr" v="name"/><x n="data"><s v="International 1924"/></x></x>
+            <x><i n="tag" v="5121"/><i n="idx" v="0"/><s n="hdr" v="desc"/><x n="data"><s v="EPSG Adopted by IUGG 1924 in Madrid. Based on Hayford 1909/1910 figures. "/></x></x>
+            <x><i n="tag" v="5110"/><i n="idx" v="0"/><s n="hdr" v="A"/><x n="data"><s v="6378388.0"/></x></x>
+            <x><i n="tag" v="5111"/><i n="idx" v="0"/><s n="hdr" v="B"/><x n="data"><s v=""/></x></x>
+            <x><i n="tag" v="5112"/><i n="idx" v="0"/><s n="hdr" v="f"/><x n="data"><s v="297"/></x></x>
+            <x><i n="tag" v="5114"/><i n="idx" v="0"/><s n="hdr" v="use_f"/><x n="data"><s v="1"/></x></x>
+            <x><i n="tag" v="5115"/><i n="idx" v="0"/><s n="hdr" v="spheroid"/><x n="data"><s v="0"/></x></x>
+            <x><i n="tag" v="102004"/><i n="idx" v="0"/><s n="hdr" v="GeoTIFF ellipsoid"/><x n="data"><s v="7022"/></x></x>
+            <x><i n="tag" v="101004"/><i n="idx" v="0"/><s n="hdr" v="MIFMID ellipsoid"/><x n="data"><s v="4"/></x></x>
+          </x>
+          <x n="subtree">
+            <x>
+              <i n="tag" v="5113"/><i n="idx" v="0"/><s n="hdr" v="linear unit"/>
+              <x n="field">
+                <x><i n="tag" v="5301"/><i n="idx" v="0"/><s n="hdr" v="code"/><x n="data"><s v="0"/></x></x>
+                <x><i n="tag" v="5312"/><i n="idx" v="0"/><s n="hdr" v="type"/><x n="data"><s v="1"/></x></x>
+                <x><i n="tag" v="5310"/><i n="idx" v="0"/><s n="hdr" v="f_b"/><x n="data"><s v="1"/></x></x>
+                <x><i n="tag" v="5311"/><i n="idx" v="0"/><s n="hdr" v="f_c"/><x n="data"><s v="1"/></x></x>
+                <x><i n="tag" v="5320"/><i n="idx" v="0"/><s n="hdr" v="name"/><x n="data"><s v="metre"/></x></x>
+                <x><i n="tag" v="5321"/><i n="idx" v="0"/><s n="hdr" v="abbr"/><x n="data"><s v="m"/></x></x>
+                <x><i n="tag" v="5322"/><i n="idx" v="0"/><s n="hdr" v="desc"/><x n="data"><s v="ISO 1000. Also known as International metre. "/></x></x>
+                <x><i n="tag" v="102002"/><i n="idx" v="0"/><s n="hdr" v="GeoTIFF linear unit"/><x n="data"><s v="9001"/></x></x>
+                <x><i n="tag" v="101002"/><i n="idx" v="0"/><s n="hdr" v="MIF/MID unit name"/><x n="data"><s v="m"/></x></x>
+              </x>
+            </x>
+          </x>
+        </x>
+      </x>
+    </x>
+    <x>
+      <i n="tag" v="1103"/><i n="idx" v="0"/><s n="hdr" v="ellipsoid"/>
+      <x n="field">
+        <x><i n="tag" v="5120"/><i n="idx" v="0"/><s n="hdr" v="name"/><x n="data"><s v="International 1924"/></x></x>
+        <x><i n="tag" v="5121"/><i n="idx" v="0"/><s n="hdr" v="desc"/><x n="data"><s v="EPSG Adopted by IUGG 1924 in Madrid. Based on Hayford 1909/1910 figures. "/></x></x>
+        <x><i n="tag" v="5110"/><i n="idx" v="0"/><s n="hdr" v="A"/><x n="data"><s v="6378388.0"/></x></x>
+        <x><i n="tag" v="5111"/><i n="idx" v="0"/><s n="hdr" v="B"/><x n="data"><s v=""/></x></x>
+        <x><i n="tag" v="5112"/><i n="idx" v="0"/><s n="hdr" v="f"/><x n="data"><s v="297"/></x></x>
+        <x><i n="tag" v="5114"/><i n="idx" v="0"/><s n="hdr" v="use_f"/><x n="data"><s v="1"/></x></x>
+        <x><i n="tag" v="5115"/><i n="idx" v="0"/><s n="hdr" v="spheroid"/><x n="data"><s v="0"/></x></x>
+        <x><i n="tag" v="102004"/><i n="idx" v="0"/><s n="hdr" v="GeoTIFF ellipsoid"/><x n="data"><s v="7022"/></x></x>
+        <x><i n="tag" v="101004"/><i n="idx" v="0"/><s n="hdr" v="MIFMID ellipsoid"/><x n="data"><s v="4"/></x></x>
+      </x>
+      <x n="subtree">
+        <x>
+          <i n="tag" v="5113"/><i n="idx" v="0"/><s n="hdr" v="linear unit"/>
+          <x n="field">
+            <x><i n="tag" v="5301"/><i n="idx" v="0"/><s n="hdr" v="code"/><x n="data"><s v="0"/></x></x>
+            <x><i n="tag" v="5312"/><i n="idx" v="0"/><s n="hdr" v="type"/><x n="data"><s v="1"/></x></x>
+            <x><i n="tag" v="5310"/><i n="idx" v="0"/><s n="hdr" v="f_b"/><x n="data"><s v="1"/></x></x>
+            <x><i n="tag" v="5311"/><i n="idx" v="0"/><s n="hdr" v="f_c"/><x n="data"><s v="1"/></x></x>
+            <x><i n="tag" v="5320"/><i n="idx" v="0"/><s n="hdr" v="name"/><x n="data"><s v="metre"/></x></x>
+            <x><i n="tag" v="5321"/><i n="idx" v="0"/><s n="hdr" v="abbr"/><x n="data"><s v="m"/></x></x>
+            <x><i n="tag" v="5322"/><i n="idx" v="0"/><s n="hdr" v="desc"/><x n="data"><s v="ISO 1000. Also known as International metre. "/></x></x>
+            <x><i n="tag" v="102002"/><i n="idx" v="0"/><s n="hdr" v="GeoTIFF linear unit"/><x n="data"><s v="9001"/></x></x>
+            <x><i n="tag" v="101002"/><i n="idx" v="0"/><s n="hdr" v="MIF/MID unit name"/><x n="data"><s v="m"/></x></x>
+          </x>
+        </x>
+      </x>
+    </x>
+  </x>
+</phini>

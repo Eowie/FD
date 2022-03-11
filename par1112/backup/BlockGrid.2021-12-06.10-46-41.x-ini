@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE phini SYSTEM "phini4.dtd">
+<phini><!-- 7.1.3520 Lite x64 -->
+  <i n="orientation" v="0"/>
+  <x n="strips">
+    <x>
+      <s n="name" v="Strip 1"/>
+      <x n="images">
+      </x>
+    </x>
+  </x>
+</phini>

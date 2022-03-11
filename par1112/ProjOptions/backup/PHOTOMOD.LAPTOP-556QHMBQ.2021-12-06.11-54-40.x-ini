@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE phini SYSTEM "phini4.dtd">
+<phini><!-- 7.1.3520 Lite x64 -->
+  <x n="at_point_edit">
+    <i n="residuals_mm" v="0"/>
+    <i n="transform_mode" v="5"/>
+  </x>
+  <x n="block_grid">
+    <i n="iterstrip_stereos_all" v="0"/>
+    <d n="min_interstrip_img_overlap" v="1.0000000000000001e-01"/>
+  </x>
+  <x n="intor">
+    <x n="marker">
+      <i n="circle_count" v="2"/>
+      <x n="color">
+        <i n="b" v="0"/>
+        <i n="g" v="0"/>
+        <i n="r" v="255"/>
+      </x>
+      <i n="draw_circular_grid" v="0"/>
+      <i n="draw_inner_circls" v="0"/>
+      <i n="height" v="21"/>
+      <i n="shape" v="0"/>
+      <i n="sync_with_cs" v="0"/>
+      <i n="width" v="21"/>
+    </x>
+  </x>
+  <x n="limits">
+    <x n="adjustment">
+      <x n="check">
+        <d n="xy" v="2.0000000000000001e-01"/>
+        <d n="z" v="2.0000000000000001e-01"/>
+      </x>
+      <x n="ground_control">
+        <d n="xy" v="2.0000000000000001e-01"/>
+        <d n="z" v="2.0000000000000001e-01"/>
+      </x>
+      <x n="proj_center">
+        <d n="xy" v="2.0000000000000001e-01"/>
+        <d n="z" v="2.0000000000000001e-01"/>
+      </x>
+      <s n="tie_mode" v=""/>
+      <x n="tie_point">
+        <d n="xy" v="2.0000000000000001e-01"/>
+        <d n="z" v="2.0000000000000001e-01"/>
+      </x>
+      <x n="tie_proj_center">
+        <d n="xy" v="2.0000000000000001e-01"/>
+        <d n="z" v="2.0000000000000001e-01"/>
+      </x>
+      <x n="tie_targeted">
+        <d n="xy" v="2.0000000000000001e-01"/>
+        <d n="z" v="2.0000000000000001e-01"/>
+      </x>
+    </x>
+    <x n="rel_or">
+      <x n="kappa_diff">
+        <d n="value_deg" v="3.0000000000000000e+01"/>
+      </x>
+      <i n="min_points" v="6"/>
+      <x n="v_par">
+        <s n="cs" v=""/>
+        <s n="stat" v=""/>
+        <d n="value" v="5.0000000000000000e-01"/>
+      </x>
+    </x>
+    <x n="triplet">
+      <i n="min_points" v="2"/>
+      <x n="tie">
+        <s n="cs" v=""/>
+        <s n="stat" v=""/>
+        <x n="value">
+          <d n="xy" v="1.0000000000000000e+00"/>
+          <d n="z" v="2.0000000000000000e+00"/>
+        </x>
+      </x>
+    </x>
+  </x>
+  <x n="recent_entries/">
+    <x n="layer_dem">
+    </x>
+    <x n="layer_grid">
+    </x>
+    <x n="layer_objects">
+    </x>
+    <x n="layer_tin">
+    </x>
+  </x>
+  <x n="report">
+    <i n="add_neigbour_images" v="0"/>
+    <s n="angles_format_system_3d" v=""/>
+    <s n="angles_format_units" v=""/>
+    <i n="precision" v="0"/>
+    <s n="residuals_format" v=""/>
+    <i n="selected_images" v="0"/>
+    <x n="stereo">
+      <i n="interstrip_check" v="0"/>
+      <i n="max_kappa_use" v="0"/>
+      <i n="min_points_use" v="1"/>
+      <i n="point_distribution_use" v="0"/>
+      <i n="show_coords" v="0"/>
+      <i n="v_par_use" v="1"/>
+    </x>
+    <x n="triplet">
+      <i n="min_points_use" v="1"/>
+      <i n="point_distribution_use" v="1"/>
+      <i n="show_coords" v="0"/>
+      <i n="tie_use" v="1"/>
+    </x>
+  </x>
+  <x n="windows">
+    <i n="bs_rotate" v="0"/>
+    <d n="bs_rotate_angle_deg" v="1.8000000000000000e+02"/>
+    <i n="pixel_marker_movement" v="0"/>
+  </x>
+</phini>

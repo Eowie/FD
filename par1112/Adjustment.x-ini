@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE phini SYSTEM "phini4.dtd">
+<phini><!-- 7.1.3520 Lite x64 -->
+  <x n="labels">
+    <x n="int_or">
+      <i n="size" v="0"/>
+      <s n="timestamp" v="0000-01-01T00:00:00.0000000Z"/>
+      <i n="part_crc" v="0x0"/>
+    </x>
+    <x n="cameras">
+    </x>
+    <x n="bundle_points">
+      <i n="size" v="0"/>
+      <s n="timestamp" v="0000-01-01T00:00:00.0000000Z"/>
+      <i n="part_crc" v="0x0"/>
+    </x>
+    <x n="coord_system">
+      <i n="size" v="0"/>
+      <s n="timestamp" v="0000-01-01T00:00:00.0000000Z"/>
+      <i n="part_crc" v="0x0"/>
+    </x>
+  </x>
+  <x n="clusters">
+    <x>
+      <s n="serial" v="adj:2021-12-06T11:06:36.2300140+00:00"/>
+      <i n="is_geo" v="1"/>
+      <d n="mean_gsd" v="0.0000000000000000e+00"/>
+      <x n="ctui_origin_u"><d n="x" v="-8.8438047500000001e+04"/><d n="y" v="-1.0067511400000000e+05"/><d n="z" v="1.0965219999999999e+03"/></x>
+      <x n="points">
+      </x>
+      <x n="images">
+        <x>
+          <i n="code_im" v="11"/>
+          <s n="type" v="central_projection"/>
+          <x n="ext_or_i">
+            <x n="center"><d n="x" v="-1.4046383717350545e+02"/><d n="y" v="-3.7638194060706155e+01"/><d n="z" v="-1.4196560280397534e+00"/></x>
+            <x n="angles">
+              <d n="alpha" v="-8.2125320245633911e-03"/>
+              <d n="omega" v="1.5048517210010893e-03"/>
+              <d n="kappa" v="2.7042915147915114e-01"/>
+            </x>
+          </x>
+          <x n="ext_or_u">
+            <x n="center"><d n="x" v="-8.8579769000000000e+04"/><d n="y" v="-1.0070824800000001e+05"/><d n="z" v="1.0951040000000000e+03"/></x>
+            <x n="angles">
+              <d n="alpha" v="-8.1821162453421664e-03"/>
+              <d n="omega" v="1.7627235384410538e-03"/>
+              <d n="kappa" v="2.3829549925181887e-01"/>
+            </x>
+          </x>
+        </x>
+        <x>
+          <i n="code_im" v="12"/>
+          <s n="type" v="central_projection"/>
+          <x n="ext_or_i">
+            <x n="center"><d n="x" v="1.4046403205688694e+02"/><d n="y" v="3.7638281733441545e+01"/><d n="z" v="1.4163439683616161e+00"/></x>
+            <x n="angles">
+              <d n="alpha" v="-2.4279216865656164e-03"/>
+              <d n="omega" v="4.4359725254522388e-03"/>
+              <d n="kappa" v="2.6204555612431768e-01"/>
+            </x>
+          </x>
+          <x n="ext_or_u">
+            <x n="center"><d n="x" v="-8.8296326000000001e+04"/><d n="y" v="-1.0064198000000000e+05"/><d n="z" v="1.0979400000000001e+03"/></x>
+            <x n="angles">
+              <d n="alpha" v="-2.2619697853802812e-03"/>
+              <d n="omega" v="4.5169005489165233e-03"/>
+              <d n="kappa" v="2.2991022213569706e-01"/>
+            </x>
+          </x>
+        </x>
+      </x>
+    </x>
+  </x>
+</phini>

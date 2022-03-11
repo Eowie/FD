@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE phini SYSTEM "phini4.dtd">
+<phini><!-- 7.1.3520 Lite x64 -->
+  <x n="version">
+    <i n="data_version" v="50843"/>
+    <s n="creator_title" v="PHOTOMOD 7.1.0"/>
+    <s n="minimal_title" v="PHOTOMOD 5.0.843"/>
+  </x>
+  <!-- name=par1112 -->
+  <x n="description">
+  </x>
+  <i n="type" v="1"/>
+  <!-- 1 = Aero Block -->
+  <!-- 2 = Pushbroom Block -->
+  <!-- 3 = ADS 40 -->
+  <!-- 4 = VisionMap -->
+  <s n="creation_date" v="2021-12-06T10:46:38.839+00:00"/>
+  <s n="default_image_folder" v="/FD/par1112/Images/"/>
+</phini>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE phini SYSTEM "phini4.dtd">
+<phini><!-- 7.1.3520 Lite x64 -->
+  <i n="BlockSize" v="786432"/>
+  <x n="Tile">
+    <i n="CodeIm" v="11"/>
+    <i n="Serial" v="15130253261658"/>
+    <i n="size" v="100717556"/>
+    <s n="timestamp" v="2021-12-06T10:49:26.2995161+00:00"/>
+    <i n="part_crc" v="0xD3AACF57"/>
+  </x>
+  <x n="Tile">
+    <i n="CodeIm" v="12"/>
+    <i n="Serial" v="15130253367772"/>
+    <i n="size" v="103100285"/>
+    <s n="timestamp" v="2021-12-06T10:49:38.3439320+00:00"/>
+    <i n="part_crc" v="0x50599009"/>
+  </x>
+</phini>

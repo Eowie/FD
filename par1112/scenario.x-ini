@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE phini SYSTEM "phini4.dtd">
+<phini><!-- 7.1.3520 Lite x64 -->
+  <x n="rastercnv_perform_conversion">
+    <x n="images">
+      <x n="image">
+        <s n="url" v="file:///C:/Users/Eow/Desktop/Mestrado/57541/Images/11.tif"/>
+        <s n="ql_path" v=""/>
+      </x>
+      <x n="image">
+        <s n="url" v="file:///C:/Users/Eow/Desktop/Mestrado/57541/Images/12.tif"/>
+        <s n="ql_path" v=""/>
+      </x>
+    </x>
+    <x n="format">
+      <i n="output_format" v="1"/>
+      <i n="output_georef_type" v="0"/>
+      <i n="apply_correction" v="0"/>
+      <i n="output_bps" v="0"/>
+      <i n="compress_mode" v="1"/>
+      <i n="jpeg_quality" v="90"/>
+      <i n="mega_tiff_mode" v="0"/>
+      <i n="is_save_datum" v="0"/>
+    </x>
+    <x n="placement">
+      <i n="folder_mode" v="1"/>
+      <s n="folder" v="phres:/FD/par1112/Images/"/>
+      <s n="file_prefix" v=""/>
+      <s n="file_suffix" v=""/>
+      <i n="overwrite_mode" v="1"/>
+    </x>
+    <i n="normalize_histogram" v="0"/>
+    <i n="conveyor_mode" v="0"/>
+    <i n="extract_md_only" v="0"/>
+    <x n="output">
+      <x n="image">
+        <s n="infile" v="file:///C:/Users/Eow/Desktop/Mestrado/57541/Images/11.tif"/>
+        <s n="outfile" v="phres:/FD/par1112/Images/11.tif"/>
+      </x>
+      <x n="image">
+        <s n="infile" v="file:///C:/Users/Eow/Desktop/Mestrado/57541/Images/12.tif"/>
+        <s n="outfile" v="phres:/FD/par1112/Images/12.tif"/>
+      </x>
+    </x>
+  </x>
+</phini>
